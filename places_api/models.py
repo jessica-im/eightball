@@ -10,6 +10,5 @@ class Place(models.Model):
     tableBrand = models.CharField(max_length=100)
     tableCondition = models.CharField(max_length=100)
     cueCondition = models.CharField(max_length=100)
-    hasChalk = models.BooleanField(default=False)
     vibe = models.CharField(max_length=100)
     newFriends = models.CharField(max_length=100)
