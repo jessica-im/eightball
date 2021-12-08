@@ -147,7 +147,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOW_ALL_ORIGINS = False
-CORS_ORIGIN_WHITELIST=(
-    'https://eightball-react.herokuapp.com/'
-)
+CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ORIGIN_WHITELIST=(
+#     'https://eightball-react.herokuapp.com/'
+# )
